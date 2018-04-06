@@ -21,10 +21,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<distributionManagement>
+
+  <distributionManagement>
   <repository>
     <id>releases</id>
     <url>http://localhost:8081/nexus/content/repositories/releases</url>
   </repository>
-</distributionManagement>
+
+  </distributionManagement>
 </project>
