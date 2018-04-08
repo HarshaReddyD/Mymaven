@@ -26,12 +26,11 @@
   </snapshotRepository>
 </distributionManagement>
   
-  <properties>
+ <properties>
     <sonar.core.codeCoveragePlugin>jacoco</sonar.core.codeCoveragePlugin>
     <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
     <sonar.jacoco.reportPath>SpringExample/target/jacoco.exec</sonar.jacoco.reportPath>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+</properties>
 <build>
     <plugins>
         <plugin>
